@@ -4,5 +4,5 @@ version: '1'
 
 services:
   rocketchatapp_jitsi:
-    image: rocketchatapp_tenor:latest
-    container_name: rocketchatapp_tenor
+    image: rocketchatapp_poll:latest
+    container_name: rocketchatapp_poll
