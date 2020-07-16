@@ -41,3 +41,12 @@ rc-apps deploy
 ```
 
 Follow the instructions and when you're done, the app will be installed on your Rocket.Chat server.
+
+## Docker
+A Dockerfile and docker-compose are provided.
+
+Build the docker image and run it to deploy to your server:
+`docker build -t rocketchatapp_poll . && docker run -it --rm -e URL=YOUR_SERVER -e USERNAME=YOUR_USERNAME -e PASSWORD=YOUR_PASSWORD rocketchatapp_poll`
+
+Build the docker image and run docker-compose to deploy to your server:
+`docker build -t rocketchatapp_poll . && docker-compose run --rm -e URL=YOUR_SERVER -e USERNAME=YOUR_USERNAME -e PASSWORD=YOUR_PASSWORD rocketchatapp_poll`
