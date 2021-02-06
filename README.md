@@ -1,5 +1,7 @@
 # Rocket.Chat Poll App
 
+A Rocket.Chat App slash command to create a poll
+
 ## Compatibility table
 
 Poll Version | Minimum Rocket.Chat Version
