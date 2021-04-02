@@ -2,6 +2,10 @@
 
 A Rocket.Chat App slash command to create a poll
 
+# Deprecated
+
+This project will no longer be maintained by me, I have retired my Rocket.Chat server in favor of a Matrix Synapse server.
+
 ## Compatibility table
 
 Poll Version | Minimum Rocket.Chat Version
